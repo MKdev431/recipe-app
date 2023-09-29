@@ -4,6 +4,7 @@ import Veggie from "../components/Veggie";
 export default function Home() {
   return (
     <>
+      <Veggie />
       <Popular />
     </>
   );
