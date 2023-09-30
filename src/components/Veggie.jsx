@@ -7,10 +7,10 @@ export default function Veggie() {
   const [veggie, setVeggie] = useState([]);
 
   useEffect(() => {
-    getPopular();
+    getVeggie();
   }, []);
 
-  const getPopular = async () => {
+  const getVeggie = async () => {
     const check = localStorage.getItem("veggie");
 
     if (check) {
