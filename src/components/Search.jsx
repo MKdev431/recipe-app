@@ -25,7 +25,7 @@ export default function Search() {
 }
 
 const FormStyle = styled.form`
-  margin: 0 20rem;
+  margin: 1rem 20rem;
   div {
     position: relative;
     width: 100%;
