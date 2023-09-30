@@ -1,6 +1,7 @@
 import Home from "./Home";
 import Cuisine from "./Cuisine";
 import Searched from "./Searched";
+import Recipe from "./Recipe";
 import { Route, Routes } from "react-router-dom";
 
 export default function Pages() {
@@ -17,6 +18,10 @@ export default function Pages() {
       <Route
         path="/searched/:search"
         element={<Searched />}
+      />
+      <Route
+        path="/recipe/:name"
+        element={<Recipe />}
       />
     </Routes>
   );
